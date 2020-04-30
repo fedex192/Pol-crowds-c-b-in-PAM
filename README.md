@@ -1,2 +1,2 @@
-# Polarizing-crowds-consensus-and-bipolarization-in-a-persuasive-arguments-model
+# Polarizing crowds: consensus and bipolarization in a persuasive arguments model
 These scripts correspond to the paper of the same name. They are all python scripts, but some have been cythonized for speed. They will be progressively clarified, so that anyone who wishes to run the simulations will be able to do so. Right now, the scripts are perfectly functional, but lack comments. Many scripts may be divided in the future, so that each function can be more easily accessed. 
