@@ -4,7 +4,10 @@ These scripts correspond to the paper of the same name. They are all python scri
 The main script is newrunargsim.py, which has several functions designed to perform the simulations. 
 explorargsim.py has parameter explorations which call upon some functions inside newrunargsim.py. 
 newargumentphasediagram has many plotting functions, which were used to make the Figures of the paper.
-All functions labeled as 2 and found with extension .pyx were compiled with cython to gain speed, and are used by some of the functions in newrunargsim.py. All of them have a counterpart without the number 2, which are the actual uncythonized scripts, and correspond to the main underlying functions:
+
+Inside the folder "Cythonized Functions" are scripts mainly used by newrunargsim.py, compiled with cython to gain speed. The files with extension ".pyx" are the uncompilled files, and are mainly copies of files of similar names found in the main directory (some of them end in number 2, others start with letter C, but the rest of the name is the same as some other file in the mentioned directory). The files with ".pyd" extension are the corresponding compiled files. All files in these folder will not have the same thorough comments found in the main files, and they may contain other functions which were used for testing, and were later unused for the final simulations (having those compiled allowed for testing, and removing them was unnecesary, for it required recompilling the files). 
+
+The main underlying functions are found in the main directory:
 Agent.py employs object-oriented programming for creating the agents used in the simulations, with some useful functions that retain arguments, calculate and update posture, calculate and update opinion, among others. 
 Arguments.py also uses object-oriented programming, but for the arguments, which can have sign and weight.
 interaction.py implements all interactions (some are unused in this paper, this script will be massively clarified in the future).
