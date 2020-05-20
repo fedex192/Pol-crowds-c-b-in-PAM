@@ -15,3 +15,14 @@ population.py creates a population of agents according to some specifications (l
 
 More descriptions for the rest of the functions will be added in the future, but those are the main scripts.
 
+List of functions already cleaned:
+
+Agent.py
+Argument.py
+createlistofarguments.py
+population.py
+getundecidedcounts.py
+getagentspersuasion.py
+getopinions.py
+
+Expected date for finishing clean-up: before the end of may, possibly before monday the 25th.
