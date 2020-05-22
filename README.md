@@ -26,5 +26,9 @@ getagentspersuasion.py
 getopinions.py
 newinteraction.py
 choosinginteractingagents.py
+newrunargsim.py
+checkconvergence.py
+plottingopinions.py
+plottingarguments.py
 
 Expected date for finishing clean-up: before the end of may, possibly before monday the 25th.
