@@ -1,7 +1,7 @@
 # Polarizing crowds: consensus and bipolarization in a persuasive arguments model
 These scripts correspond to the paper of the same name. They are all python scripts, but some have been cythonized for speed. Most of them have been thoroughly commented, so that anyone who wishes to run the simulations will be able to do so. A couple are still being clarified, as detailed below. However, all the scripts are perfectly functional.
 
-Please note that posture was referred to as "persuasion" in most of our codes. That named was changed later. We hope this will not be confusing (files that use this variable have this same note at the beginning of the file).
+Please note that posture was referred to as "persuasion" in most of our codes. That name was changed later. We hope this will not be confusing (files that use this variable have this same note at the beginning of the file).
 
 The main functions are found in the master directory:
 - Agent.py employs object-oriented programming for creating the agents used in the simulations, with some useful functions that retain arguments, calculate and update posture, calculate and update opinion, among others. 
