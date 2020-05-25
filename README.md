@@ -25,10 +25,10 @@ The main functions are found in the master directory:
 
 List of functions that still need to be cleaned up:
 
-newcollectdata.py (used for loading and restructuring saved variables so that data can be analyzed and plotted).
-newargumentsphasediagram (used for making most of the plots and figures of the paper)
-PCBSimulation.py (used for making the plot of Figure 7 (a))
-ContraryFluxSimulation.py (used for making the plot of Figure 7 (b))
+- newcollectdata.py (used for loading and restructuring saved variables so that data can be analyzed and plotted).
+- newargumentsphasediagram (used for making most of the plots and figures of the paper)
+- PCBSimulation.py (used for making the plot of Figure 7 (a))
+- ContraryFluxSimulation.py (used for making the plot of Figure 7 (b))
 
 Expected date for finishing clean-up: probably before tuesday the 26th, the work is almost finished.
 
