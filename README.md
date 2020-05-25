@@ -16,7 +16,7 @@ The main functions are found in the master directory:
 - checkconvergence.py is used for checking if a system has already converged to the final state of opinions, or not.
 - newrunargsim.py is the main file, and has the most important functions for performing the simulations. 
 - plottingopinions.py is used for making the plots of the second column of Figure 3.
-- plottingarguments.py is used for making the plots of the first column of Figure 3.
+- plottingarguments.py is used for making the plots of the first column of Figure 3, and those of Figure 2 b) and c).
 - newexplorargsim.py is used for parameter exploration; we explore N vs. N_A here.
 - exploringM.py is used for parameter exploration; we explore M vs. N_A and M vs. N here.
 - exploringDelta.py is used for parameter exploration; we explore N_A/N vs. M here.
@@ -27,6 +27,8 @@ List of functions that still need to be cleaned up:
 
 newcollectdata.py (used for loading and restructuring saved variables so that data can be analyzed and plotted).
 newargumentsphasediagram (used for making most of the plots and figures of the paper)
+PCBSimulation.py (used for making the plot of Figure 7 (a))
+ContraryFluxSimulation.py (used for making the plot of Figure 7 (b))
 
 Expected date for finishing clean-up: probably before tuesday the 26th, the work is almost finished.
 
