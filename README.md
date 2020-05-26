@@ -23,13 +23,16 @@ The main functions are found in the master directory:
 - saving.py is used for saving results of explorations.
 - runnewexplorargsim1.py is an example script used for running explorations in a paralellized fashion.
 
+- argumentativeinteractioncontraryflux.py is a slightly modified version of argumentativeinteraction found in newinteraction.py, used by ContraryFluxSimulation.py
+- ContraryFluxSimulation.py is used for making the plot of Figure 7 (b). 
+
 List of functions that still need to be cleaned up:
 
 - newcollectdata.py (used for loading and restructuring saved variables so that data can be analyzed and plotted).
 - newargumentsphasediagram (used for making most of the plots and figures of the paper)
 - PCBSimulation.py (used for making the plot of Figure 7 (a))
-- ContraryFluxSimulation.py (used for making the plot of Figure 7 (b))
 
-Expected date for finishing clean-up: probably before tuesday the 26th, the work is almost finished.
+
+Expected date for finishing clean-up: in a couple of hours.
 
 Inside the folder "Cythonized Functions" are scripts mainly used by newrunargsim.py, compiled with cython to gain speed. The files with extension ".pyx" are the uncompilled files, and are mainly copies of files of similar names found in the main directory (some of them end in number 2, others start with letter C, and some may also have a "new" added to the name, but the rest of the name is the same as some other file in the mentioned directory). The files with ".pyd" extension are the corresponding compiled files. There is also a setup.py file, which can be used to compile the ".pyx" files into the ".pyd" files. All files in this folder (except for setup.py) will not have the same thorough comments found in the main files, and they may contain other functions which were used for testing, and were later unused for the final simulations (having those compiled allowed for testing, and removing them was unnecesary, for it required recompilling the files). We suggest learning to cythonize and use this files if you wish to run the full parameter explorations, since it can take a very long time and many many cores simultaneously running for it to finish in a useful amount of time. The .pyd files will probably not work in other computers than the ones we used (compilation is computer-specific), so you will need to use the .pyx files along with setup.py. Please, contact the corresponding author if you need further directions (although a quick google search should be sufficient for learning how to cythonize files using setup.py).
