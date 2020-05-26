@@ -22,7 +22,7 @@ The main functions are found in the master directory:
 - exploringDelta.py is used for parameter exploration; we explore N_A/N vs. M here.
 - saving.py is used for saving results of explorations.
 - runnewexplorargsim1.py is an example script used for running explorations in a paralellized fashion.
-
+- PCBSimulation.py (used for making the plot of Figure 7 (a))
 - argumentativeinteractioncontraryflux.py is a slightly modified version of argumentativeinteraction found in newinteraction.py, used by ContraryFluxSimulation.py
 - ContraryFluxSimulation.py is used for making the plot of Figure 7 (b). 
 
@@ -30,8 +30,6 @@ List of functions that still need to be cleaned up:
 
 - newcollectdata.py (used for loading and restructuring saved variables so that data can be analyzed and plotted).
 - newargumentsphasediagram (used for making most of the plots and figures of the paper)
-- PCBSimulation.py (used for making the plot of Figure 7 (a))
-
 
 Expected date for finishing clean-up: in a couple of hours.
 
