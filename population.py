@@ -43,7 +43,7 @@ def argumentativepopulation(listofarguments,N=10,numofrelevargs=5,Ct=1.0, Cmax=3
             tobeusedpros=[]
         negargs=initialargs-posargs
         
-        if i!=0:
+        if negargs!=0:
                 tobeusedcons=cons[-negargs:] #negative arguments
                
                   
